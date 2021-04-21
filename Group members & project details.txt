@@ -1,0 +1,30 @@
+Group Members:
+Muhammad Taha
+Gitreef Akram
+Muneer Nizam
+
+
+Project: Clinic Management System
+
+Info: 
+Can add receptionist
+can add doctors
+1 admin
+can add patients
+dr. can prescribe to patients etc
+(ID are auto created, and password are built in 12345, which can be changed afterwards by user)
+
+
+More Details:
+we use mysql(XAMPP) database
+we use Netbeans Jframe
+
+Important Not:
+sql file, video & project are there you can check it..(if sql file not work, u can watch video "How to create database", 
+so that u can run our project)
+
+
+request: plz give feedback we will wait for your opinion......
+
+
+

@@ -1,0 +1,26 @@
+create database admin;
+use admin;
+
+create table admin (name varchar(30), contact varchar(30), id int AUTO_INCREMENT PRIMARY KEY, password varchar(30), address varchar(500));
+ALTER TABLE admin AUTO_INCREMENT=1001;
+create table doctor (name varchar(30), contact varchar(30), id int AUTO_INCREMENT PRIMARY KEY, address varchar(500), password varchar(30));
+ALTER TABLE doctor AUTO_INCREMENT=100;
+create table patient (name varchar(30), contact varchar(30), id int AUTO_INCREMENT PRIMARY KEY, address varchar(500), disease varchar(30), prescribe varchar(500));
+ALTER TABLE patient AUTO_INCREMENT=10600;
+create table reception (name varchar(30), contact varchar(30), id int AUTO_INCREMENT PRIMARY KEY, address varchar(500), password varchar(30));
+ALTER TABLE reception AUTO_INCREMENT=212101;
+
+
+INSERT INTO admin VALUES ("Muhammad Taha","03058276629", DEFAULT,"12345","Nazimabad Karachi");
+
+INSERT INTO doctor VALUES ("Gitreef Akram","03165461247", DEFAULT,"Johar","12345");
+INSERT INTO doctor VALUES ("Arbab Alam","0321456987", DEFAULT,"Muka Chowk","12345");
+INSERT INTO doctor VALUES ("Samreen Asif","0326584132", DEFAULT,"Punjab Chowrangi Karachi","12345");
+
+INSERT INTO patient VALUES ("Wasim Waqar","03165461247", DEFAULT,"Gizri",Default,Default);
+INSERT INTO patient VALUES ("Babar Azam","03214569874", DEFAULT,"Machar Colony",Default,Default);
+INSERT INTO patient VALUES ("Kashaf Iqbal","03265784132", DEFAULT,"DHA fase 2 Karachi",Default,Default);
+
+INSERT INTO reception VALUES ("Babur Mughal","03058741236", DEFAULT,"Jamshed Town","Bm123");
+INSERT INTO reception VALUES ("Hira Imran","03217287965", DEFAULT,"Saddar","12345");
+INSERT INTO reception VALUES ("Samar Kashif","03251269842", DEFAULT,"Soldier Bazar Karachi","12345");
